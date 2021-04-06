@@ -24,7 +24,8 @@
 - -YouTUbe --> y + "name of what you want to search"
 - Default : will search what you type on google.
 - Help : -h will show you all the options for the research.
-- **EXAMPLE** *-w Xorg* will lead on Xorg Archwiki page.  
+- ![Preview](https://github.com/emanuelep57/Blue-tea/blob/main/assets/help.png)
+- **EXAMPLE:**  *-w Xorg*   will lead on Xorg Archwiki page,  *-a chair* will lead to the chair research on amazon and so on.
 
 ## Settings
 ### Links
