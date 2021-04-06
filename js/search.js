@@ -1,3 +1,48 @@
+
+//ADD JQUERY
+
+/*(function() {
+/    var startingTime = new Date().getTime();
+    // Load the script
+    var script = document.createElement("SCRIPT");
+    script.src = 'https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js';
+    script.type = 'text/javascript';
+    document.getElementsByTagName("head")[0].appendChild(script);
+
+    // Poll for jQuery to come into existance
+    var checkReady = function(callback) {
+        if (window.jQuery) {
+            callback(jQuery);
+        }
+        else {
+            window.setTimeout(function() { checkReady(callback); }, 20);
+        }
+    };
+
+    // Start polling...
+    checkReady(function($) {
+        $(function() {
+            var endingTime = new Date().getTime();
+            var tookTime = endingTime - startingTime;
+        });
+    });
+})(); */
+
+function createUnorderedList(list, bulletChar) {
+  var result = "";
+  for (var i = 0; i<list.length; ++i) {
+    result += bulletChar + " " + list[i] + "\n";
+  }
+  return result;
+}
+
+function lista() {
+  var bulletChar = "•";
+  var list = ["-a   Amazon", "-d   Duckduckgo", "-g   Github", "-n   Netflix", "-r    Reddit","-s    Spotify","-w   Archwiki", "-y    Youtube"]
+  alert(createUnorderedList(list, bulletChar));
+}
+
+
 String.prototype.replaceChars = function (character, replacement) {
 	var str = this;
 	var a;
@@ -24,26 +69,47 @@ function search(query) {
 			window.open('https://www.youtube.com/results?search_query=' +
 				query.replaceChars(' ', '%20'), '_blank');
 			break;
-		case '-w':
+		case '-a':
 			query = query.substr(3);
 			window.open(
-				'https://ru.wikipedia.org/w/index.php?search=' +
+				'https://www.amazon.it/s?k=' +
 				query.replaceChars(' ', '%20'), '_blank');
 			break;
 		case '-r':
 			query = query.substr(3);
 			window.open(
-				'https://www.reddit.com/search?q=' +
+				'https://www.reddit.com/r/' +
+				query.replaceChars(' ', '%20'), '_blank');
+			break;
+		case '-w':
+			query = query.substr(3);
+			window.open(
+				'https://wiki.archlinux.org/index.php?search=' +
+				query.replaceChars(' ', '%20'), '_blank');
+			break;
+		case '-s':
+			query = query.substr(3);
+			window.open(
+				'https://open.spotify.com/search/' +
+				query.replaceChars(' ', '%20'), '_blank');
+			break;
+		case '-n':
+			query = query.substr(3);
+			window.open(
+				'https://www.netflix.com/search?q=' +
+				query.replaceChars(' ', '%20'), '_blank');
+			break;
+		case '-g':
+			query = query.substr(3);
+			window.open(
+				'https://github.com/search?q=' +
 				query.replaceChars(' ', '%20'), '_blank');
 			break;
 		case '-h':
-			query = query.substr(3);
-			window.open(
-				'https://wallhaven.cc/search?q=' +
-				query.concat('&categories=110&purity=100&atleast=1920x1080&sorting=relevance&order=desc'), '_blank');
+			lista();
 			break;
 		default:
-			window.open('https://www.google.com/#q=' +
+			window.open('https://www.google.com/search?q=' +
 				query.replaceChars(' ', '%20'), '_blank');
 	}
 }
@@ -57,7 +123,7 @@ searchInput.addEventListener('keyup', function (e) {
 		} else {
 			search(this.value);
 			searchInput.value = '';
-			searchInput.placeholder = '-d | -y | -w | -r | -h';
+			searchInput.placeholder = 'Search or -h for help';
 		}
 	}
 });
