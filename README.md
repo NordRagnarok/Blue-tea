@@ -13,7 +13,18 @@
 - **Dark/Light Theme** changes depending on the time of day, you can also switch it manually
 - **Weather** displays current temperature, description of weather conditions and city name
 - **To-Do List** allows you to add tasks, mark as completed and delete tasks that you add
-- **Search** gives you the ability to search on any sites that you can add yourself
+- **Search** gives you the ability to search on any sites that you can add yourself, at the moment research supports:
+- Netflix --> -n + "name of what you want to search"
+- Amazon --> -a + "name of what you want to search"
+- ArchWIki --> -w + "name of what you want tosearch"
+- Reddit --> -r + "specific name of the subreddit"
+- Spotify (web) --> -s "name of what you want to search"
+- DuckDuckGo --> -d + "query of your research"
+- GitHub --> -g + "name of the repo you are looking"
+- -YouTUbe --> y + "name of what you want to search"
+- Default : will search what you type on google.
+- Help : -h will show you all the options for the research.
+- **EXAMPLE** *-w Xorg* will lead on Xorg Archwiki page.  
 
 ## Settings
 ### Links
