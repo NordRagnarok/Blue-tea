@@ -1,4 +1,4 @@
-# :tea: Tea Green
+# :tea: Blue-tea
 ### Startpage with Weather and To-Do List features
 
 ![Preview](https://github.com/emanuelep57/Blue-tea/blob/main/assets/Bluetea.jpg)
