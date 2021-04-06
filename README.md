@@ -1,7 +1,7 @@
 # :tea: Tea Green
 ### Startpage with Weather and To-Do List features
 
-![Preview](https://github.com/sadparadiseinhell/tea-green/blob/main/assets/tea-green-preview.png)
+![Preview](https://github.com/emanuelep57/Blue-tea/blob/main/assets/Bluetea.jpg)
 
 ## Table of contents
 - [Features](#features)
