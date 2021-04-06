@@ -21,18 +21,18 @@
 	--global-font: var(--open-sans);
 
 	--background: #fff;
-	--foreground: #7a8c70;
-	--header: #5C6657;
-	--card-bg: #c1ecac;
+	--foreground: #ffffff;
+	--header: #a1f7ff;
+	--card-bg: #0376A6;
 
-	--weather-fg: #C5CAE9;
-	--weather-bg: #3c4b96;
+	--weather-fg: #ffffff;
+	--weather-bg: #0376A6;
 	--weather-icon: #E8EAF6;
 	--weather-temp: #C5CAE9;
-	--weather-description: #9FA8DA;
+	--weather-description: #C5CAE9;
 
-	--todo-bg: #f2e69d;
-	--todo-fg: #807a53;
+	--todo-bg: #0376A6;
+	--todo-fg: #FFFFFF;
 	--todo-hover: #4d4932;
 	--todo-input: #b3aa74;
 	--todo-done: #ccc085;
@@ -44,24 +44,24 @@
 
 /* Dark theme */
 [theme="dark"] {
-	--background: #101112;
-	--foreground: #858585;
-	--header: #A8A8A8;
-	--card-bg: #1c1d1f;
+	--background: #0f2638;
+	--foreground: #FFFFFF;
+	--header: #8fc8db;
+	--card-bg: #14425a;
 
-	--weather-fg: #BDBDBD;
+	--weather-fg: #bff0f5;
 	--weather-bg: var(--card-bg);
-	--weather-icon: #E0E0E0;
+	--weather-icon: #ffffff;
 	--weather-temp: var(--weather-fg);
-	--weather-description: #9E9E9E;
+	--weather-description: #8fc8db;
 
 	--todo-bg: var(--card-bg);
-	--todo-fg: #a6a6a6;
+	--todo-fg: #bff0f5;
 	--todo-hover: #737373;
 	--todo-input: #737373;
 	--todo-done: #474747;
 
-	--search: #737373;
+	--search: #FFFFFF;
 
 	--card-shadow-color: rgba(0, 0, 0, 0.45);
 }
