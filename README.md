@@ -1,5 +1,5 @@
 # :tea: Blue-tea
-### Startpage with Weather and To-Do List features
+### Startpage with Weather, To-Do List features and available online!
 
 ![Preview](https://github.com/emanuelep57/Blue-tea/blob/main/assets/Bluetea.jpg)
 
@@ -13,6 +13,7 @@
 - **Dark/Light Theme** changes depending on the time of day, you can also switch it manually
 - **Weather** displays current temperature, description of weather conditions and city name
 - **To-Do List** allows you to add tasks, mark as completed and delete tasks that you add
+- **Available online** you don't have to clone this repo, the webpage is available at : https://bluetea.tk/
 - **Search** gives you the ability to search on any sites that you can add yourself, at the moment research supports:
 - Netflix --> -n + "name of what you want to search"
 - Amazon --> -a + "name of what you want to search"
