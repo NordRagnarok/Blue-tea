@@ -22,7 +22,7 @@
 - Spotify (web) --> -s "name of what you want to search"
 - DuckDuckGo --> -d + "query of your research"
 - GitHub --> -g + "name of the repo you are looking"
-- -YouTUbe --> y + "name of what you want to search"
+- -YouTube --> y + "name of what you want to search"
 - Default : will search what you type on google.
 - Help : -h will show you all the options for the research.
 - ![Preview](https://github.com/emanuelep57/Blue-tea/blob/main/assets/help.png)
