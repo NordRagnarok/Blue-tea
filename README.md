@@ -13,7 +13,7 @@
 - **Dark/Light Theme** changes depending on the time of day, you can also switch it manually
 - **Weather** displays current temperature, description of weather conditions and city name
 - **To-Do List** allows you to add tasks, mark as completed and delete tasks that you add
-- **Available online** you don't have to clone this repo, the startpage is available at : https://bluetea.tk/ all you have to do is to go in your browser settings and open the url as Homepage
+- **Available online** you don't have to clone this repo, the startpage is available at : all you have to do is to go in your browser settings and open the url as Homepage
 - **Search** gives you the ability to search on any sites that you can add yourself, at the moment research supports:
 - Netflix --> -n + "name of what you want to search"
 - Amazon --> -a + "name of what you want to search"
