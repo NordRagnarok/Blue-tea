@@ -14,6 +14,7 @@
 - **Dark/Light Theme** changes depending on the time of day, you can also switch it manually
 - **Weather** displays current temperature, description of weather conditions and city name
 - **To-Do List** allows you to add tasks, mark as completed and delete tasks that you add
+- **Autofocus** now when the user opens the page, the cursor will already be in the searchbar so they only need to type
 - **Search** gives you the ability to search on any sites that you can add yourself, at the moment research supports:
 - Netflix --> -n + "name of what you want to search"
 - Amazon --> -a + "name of what you want to search"
