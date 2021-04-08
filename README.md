@@ -28,7 +28,6 @@
 
 - **Help**: Now -h will show you all the options for the research plus an example on how to use the research.
 - ![Preview](https://github.com/emanuelep57/Blue-tea/blob/main/assets/help.png)
-- **EXAMPLE:**  *-w Xorg*   will lead on Xorg Archwiki page,  *-a chair* will lead to the chair research on amazon and so on.
 
 ## Settings
 ### Links
