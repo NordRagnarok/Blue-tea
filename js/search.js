@@ -28,18 +28,20 @@
     });
 })(); */
 
-function createUnorderedList(list, bulletChar) {
+function createUnorderedList(list, bulletChar, avvertimento) {
   var result = "";
   for (var i = 0; i<list.length; ++i) {
     result += bulletChar + " " + list[i] + "\n";
   }
+  result += avvertimento;
   return result;
 }
 
 function lista() {
+  var avvertimento = "Example : \"-a chair\" to search on amazon or \"-n family gui\" to search on netflix";
   var bulletChar = "•";
   var list = ["-a   Amazon", "-d   Duckduckgo", "-g   Github", "-n   Netflix", "-r    Reddit","-s    Spotify","-w   Archwiki", "-y    Youtube"]
-  alert(createUnorderedList(list, bulletChar));
+  alert(createUnorderedList(list, bulletChar, avvertimento));
 }
 
 
@@ -116,6 +118,8 @@ function search(query) {
 
 searchInput = document.getElementById('searchbox');
 
+searchInput.focus();
+
 searchInput.addEventListener('keyup', function (e) {
 	if (e.keyCode === 13) {
 		if (searchInput.value === '') {
@@ -127,3 +131,7 @@ searchInput.addEventListener('keyup', function (e) {
 		}
 	}
 });
+
+
+
+
