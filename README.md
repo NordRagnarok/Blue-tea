@@ -10,7 +10,7 @@
   - [Weather Setting](#weather-setting)
 
 ## Features
-- **Available online** you don't have to clone this repo, the startpage is available at : **[HERE](https://bluetea.tk/)** all you have to do is to go in your browser settings and set the given url as Homepage 
+- **Available online** you don't have to clone this repo, the startpage is available at : **[HERE](https://blue-tea.ga/)** all you have to do is to go in your browser settings and set the given url as Homepage 
 - **Dark/Light Theme** changes depending on the time of day, you can also switch it manually
 - **Weather** displays current temperature, description of weather conditions and city name
 - **To-Do List** allows you to add tasks, mark as completed and delete tasks that you add
