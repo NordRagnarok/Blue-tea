@@ -1,7 +1,8 @@
 # :tea: Blue-tea
 ### Startpage with Weather, To-Do List features and available online!
 
-![Preview](https://github.com/emanuelep57/Blue-tea/blob/main/assets/Bluetea.jpg)
+![Preview](https://github.com/emanuelep57/Blue-tea/blob/main/Screenshots/start-page-dark.png)
+![Preview](https://github.com/emanuelep57/Blue-tea/blob/main/Screenshots/start-page-light.png)
 
 ## Table of contents
 - [Features](#features)
@@ -10,6 +11,7 @@
   - [Weather Setting](#weather-setting)
 
 ## Features
+- **DEDICATED FIREFOX THEMES** : click **[HERE](https://addons.mozilla.org/it/firefox/addon/bluetea/)** for the dark theme or **[HERE](https://addons.mozilla.org/it/firefox/addon/bluetea-light/)** for the light theme, for a preview of the themes check the Screenshot section of this very repository
 - **Available online** you don't have to clone this repo, the startpage is available at : **[HERE](https://blue-tea.ga/)** all you have to do is to go in your browser settings and set the given url as Homepage 
 - **Dark/Light Theme** changes depending on the time of day, you can also switch it manually
 - **Weather** displays current temperature, description of weather conditions and city name
