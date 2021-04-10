@@ -29,7 +29,7 @@
 - Default : will search what you type on google.
 
 - **Help**: Now -h will show you all the options for the research plus an example on how to use the research.
-![Preview](https://github.com/emanuelep57/Blue-tea/blob/main/assets/help.png)
+![Preview](https://github.com/emanuelep57/Blue-tea/blob/main/assets/help2.png)
 
 ## Settings
 ### Links
