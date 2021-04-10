@@ -1,5 +1,5 @@
 # :tea: Blue-tea
-### Startpage with Weather, To-Do List features and available online!
+### Startpage with : Dedicated Firefox themes, Weather, To-Do List and also available online!
 
 ![Preview](https://github.com/emanuelep57/Blue-tea/blob/main/Screenshots/start-page-dark.png)
 ![Preview](https://github.com/emanuelep57/Blue-tea/blob/main/Screenshots/start-page-light.png)
