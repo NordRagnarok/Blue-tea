@@ -83,6 +83,7 @@ body {
 }
 
 input[type="checkbox"] {display: none;}
+input[type="radio"] {display: none;}
 
 .tilt {position: absolute;}
 
@@ -216,13 +217,13 @@ input[id="searchbox"]:hover::placeholder {
 
 .chb_theme + label::before {color: #BDBDBD;}
 
-.chb_theme + label:hover::before {color: #9E9E9E;}
+.chb_theme + label:hover::before  {color: #9E9E9E;}
 
-.chb_theme:checked + label::before {color: #FFD740;}
+.chb_theme:checked + label::before  {color: #FFD740;}
 
 .chb_theme:checked + label:hover::before {color: #bfa132;}
 
-.buttons {
+.buttons-right {
 	position: absolute;
 	display: flex;
 	align-items: center;
@@ -230,8 +231,26 @@ input[id="searchbox"]:hover::placeholder {
 	left: -35px;
 }
 
+.buttons-left {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	left: 355px;
+}
+
 .btn_theme,
 .btn_weather,
+.btn_cat,
 .btn_todo {
 	margin: 5px 0px;
 }
+
+.bth_cat + label {
+	cursor: pointer;
+}
+
+.bth_cat + label  {color: #BDBDBD !important;}
+.bth_cat + label:hover  {color: #9E9E9E !important;}
+.bth_cat:checked + label  {color: #FFD740 !important;}
+.bth_cat:checked + label:hover {color: #bfa132 !important;}
